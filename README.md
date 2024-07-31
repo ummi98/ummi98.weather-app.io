@@ -1,1 +1,1 @@
-# ummi98.weather-app.io
+# weather-app.io
