@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Weather App</title>
+</head>
+<body class="bg">
+  <div class="container">
+    <h1>Weather App</h1>
+    <input type="text" id="city" placeholder="Enter city...">
+    <button id="getWeatherBtn" onclick="getWeather()">Get Weather</button>
+    <div class="glassBox" id="weather-info" style="display: none;">
+        <div class="glassBox__content">
+          <div class="glassBox__imgBox">
+            <h3 class="glassBox__title"></h3>
+            <img src="" alt="Weather Icon" id="weather-icon">
+          </div>
+          <div class="glassBox__details"></div>
+        </div>
+      </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
